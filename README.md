@@ -1,34 +1,20 @@
 # PYTHON_API
 
-> FastAPI framework, high performance, easy to learn, fast to code, ready for production
+> 逐步迁移到新仓库： [python_cn_resouce](https://github.com/china-testing/python_cn_resouce)
 
-**Category:** ONLINE_RETAIL · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/fastapi/fastapi · **Pinned commit:** `f5c6e9b4f9cadc1bf0f9a1fd672e621206b63007` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/fastapi/fastapi` as the implementation for the `PYTHON_API` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** ONLINE_RETAIL · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/china-testing/python-api-tesing · **Pinned commit:** `0b72e9f1776eced1ded90f67474f5f8d68511915` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-FastAPI framework, high performance, easy to learn, fast to code, ready for production
+逐步迁移到新仓库： [python_cn_resouce](https://github.com/china-testing/python_cn_resouce)
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-First, [install `uv`](https://docs.astral.sh/uv/getting-started/installation/), and then add FastAPI to your project:
-
-<div class="termy">
-
-```console
-$ uv add "fastapi[standard]"
-
----> 100%
 ```
-
-</div>
-
-**Note**: Make sure you put `"fastapi[standard]"` in quotes to ensure it works in all terminals.
-
-If you prefer to use `pip`, install `fastapi[standard]` inside a virtual environment. See the [installation guide](tutorial/#install-fastapi) for the alternative steps.
+# See the upstream README (linked above) for build steps.
+```
 
 ## Usage
 
@@ -74,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-1cddba4fa154075a65a816525b77949901025ccbbf91bf98c1247fd012a4830f
+54b76d77b41c0ba249b05d6df5c9ed8628bb0bd862c33dcfb15653beaca8d097
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
