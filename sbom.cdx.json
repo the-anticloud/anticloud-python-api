@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:d5733943-3d4c-5c36-8fa5-4bdf4f436f5b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:24:37Z",
+    "component": {
+      "type": "application",
+      "name": "PYTHON_API",
+      "version": "f5c6e9b4f9ca",
+      "bom-ref": "pkg:generic/anticloud/PYTHON_API@f5c6e9b4f9ca",
+      "purl": "pkg:generic/anticloud/PYTHON_API@f5c6e9b4f9ca",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f5c6e9b4f9cadc1bf0f9a1fd672e621206b63007"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "starlette",
+      "version": ">=0.46.0",
+      "purl": "pkg:pypi/starlette@0.46.0",
+      "bom-ref": "pypi/starlette@>=0.46.0"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.9.0",
+      "purl": "pkg:pypi/pydantic@2.9.0",
+      "bom-ref": "pypi/pydantic@>=2.9.0"
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": ">=4.8.0",
+      "purl": "pkg:pypi/typing-extensions@4.8.0",
+      "bom-ref": "pypi/typing-extensions@>=4.8.0"
+    },
+    {
+      "type": "library",
+      "name": "typing-inspection",
+      "version": ">=0.4.2",
+      "purl": "pkg:pypi/typing-inspection@0.4.2",
+      "bom-ref": "pypi/typing-inspection@>=0.4.2"
+    },
+    {
+      "type": "library",
+      "name": "annotated-doc",
+      "version": ">=0.0.2",
+      "purl": "pkg:pypi/annotated-doc@0.0.2",
+      "bom-ref": "pypi/annotated-doc@>=0.0.2"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-api",
+      "version": ">=1.44.0",
+      "purl": "pkg:pypi/opentelemetry-api@1.44.0",
+      "bom-ref": "pypi/opentelemetry-api@>=1.44.0"
+    }
+  ]
+}
